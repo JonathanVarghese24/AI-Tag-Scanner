@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20D28002C024B1100BB6949 /* AI_Tag_ScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D27FF2C024B1100BB6949 /* AI_Tag_ScannerApp.swift */; };
+		B20D28022C024B1100BB6949 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D28012C024B1100BB6949 /* ContentView.swift */; };
+		B20D28042C024B1200BB6949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20D28032C024B1200BB6949 /* Assets.xcassets */; };
+		B20D28072C024B1200BB6949 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20D28062C024B1200BB6949 /* Preview Assets.xcassets */; };
+		B20D28112C024B1200BB6949 /* AI_Tag_ScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D28102C024B1200BB6949 /* AI_Tag_ScannerTests.swift */; };
+		B20D281B2C024B1200BB6949 /* AI_Tag_ScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D281A2C024B1200BB6949 /* AI_Tag_ScannerUITests.swift */; };
+		B20D281D2C024B1200BB6949 /* AI_Tag_ScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D281C2C024B1200BB6949 /* AI_Tag_ScannerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B20D280D2C024B1200BB6949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20D27F42C024B1100BB6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20D27FB2C024B1100BB6949;
+			remoteInfo = "AI Tag Scanner";
+		};
+		B20D28172C024B1200BB6949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20D27F42C024B1100BB6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20D27FB2C024B1100BB6949;
+			remoteInfo = "AI Tag Scanner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B20D27FC2C024B1100BB6949 /* AI Tag Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Tag Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20D27FF2C024B1100BB6949 /* AI_Tag_ScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_Tag_ScannerApp.swift; sourceTree = "<group>"; };
+		B20D28012C024B1100BB6949 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B20D28032C024B1200BB6949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20D28062C024B1200BB6949 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B20D280C2C024B1200BB6949 /* AI Tag ScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI Tag ScannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20D28102C024B1200BB6949 /* AI_Tag_ScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_Tag_ScannerTests.swift; sourceTree = "<group>"; };
+		B20D28162C024B1200BB6949 /* AI Tag ScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI Tag ScannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20D281A2C024B1200BB6949 /* AI_Tag_ScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_Tag_ScannerUITests.swift; sourceTree = "<group>"; };
+		B20D281C2C024B1200BB6949 /* AI_Tag_ScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_Tag_ScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20D27F92C024B1100BB6949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20D28092C024B1200BB6949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20D28132C024B1200BB6949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20D27F32C024B1100BB6949 = {
+			isa = PBXGroup;
+			children = (
+				B20D27FE2C024B1100BB6949 /* AI Tag Scanner */,
+				B20D280F2C024B1200BB6949 /* AI Tag ScannerTests */,
+				B20D28192C024B1200BB6949 /* AI Tag ScannerUITests */,
+				B20D27FD2C024B1100BB6949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B20D27FD2C024B1100BB6949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20D27FC2C024B1100BB6949 /* AI Tag Scanner.app */,
+				B20D280C2C024B1200BB6949 /* AI Tag ScannerTests.xctest */,
+				B20D28162C024B1200BB6949 /* AI Tag ScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20D27FE2C024B1100BB6949 /* AI Tag Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				B20D27FF2C024B1100BB6949 /* AI_Tag_ScannerApp.swift */,
+				B20D28012C024B1100BB6949 /* ContentView.swift */,
+				B20D28032C024B1200BB6949 /* Assets.xcassets */,
+				B20D28052C024B1200BB6949 /* Preview Content */,
+			);
+			path = "AI Tag Scanner";
+			sourceTree = "<group>";
+		};
+		B20D28052C024B1200BB6949 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B20D28062C024B1200BB6949 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B20D280F2C024B1200BB6949 /* AI Tag ScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B20D28102C024B1200BB6949 /* AI_Tag_ScannerTests.swift */,
+			);
+			path = "AI Tag ScannerTests";
+			sourceTree = "<group>";
+		};
+		B20D28192C024B1200BB6949 /* AI Tag ScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B20D281A2C024B1200BB6949 /* AI_Tag_ScannerUITests.swift */,
+				B20D281C2C024B1200BB6949 /* AI_Tag_ScannerUITestsLaunchTests.swift */,
+			);
+			path = "AI Tag ScannerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20D27FB2C024B1100BB6949 /* AI Tag Scanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20D28202C024B1200BB6949 /* Build configuration list for PBXNativeTarget "AI Tag Scanner" */;
+			buildPhases = (
+				B20D27F82C024B1100BB6949 /* Sources */,
+				B20D27F92C024B1100BB6949 /* Frameworks */,
+				B20D27FA2C024B1100BB6949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AI Tag Scanner";
+			productName = "AI Tag Scanner";
+			productReference = B20D27FC2C024B1100BB6949 /* AI Tag Scanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B20D280B2C024B1200BB6949 /* AI Tag ScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20D28232C024B1200BB6949 /* Build configuration list for PBXNativeTarget "AI Tag ScannerTests" */;
+			buildPhases = (
+				B20D28082C024B1200BB6949 /* Sources */,
+				B20D28092C024B1200BB6949 /* Frameworks */,
+				B20D280A2C024B1200BB6949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20D280E2C024B1200BB6949 /* PBXTargetDependency */,
+			);
+			name = "AI Tag ScannerTests";
+			productName = "AI Tag ScannerTests";
+			productReference = B20D280C2C024B1200BB6949 /* AI Tag ScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B20D28152C024B1200BB6949 /* AI Tag ScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20D28262C024B1200BB6949 /* Build configuration list for PBXNativeTarget "AI Tag ScannerUITests" */;
+			buildPhases = (
+				B20D28122C024B1200BB6949 /* Sources */,
+				B20D28132C024B1200BB6949 /* Frameworks */,
+				B20D28142C024B1200BB6949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20D28182C024B1200BB6949 /* PBXTargetDependency */,
+			);
+			name = "AI Tag ScannerUITests";
+			productName = "AI Tag ScannerUITests";
+			productReference = B20D28162C024B1200BB6949 /* AI Tag ScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20D27F42C024B1100BB6949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B20D27FB2C024B1100BB6949 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B20D280B2C024B1200BB6949 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B20D27FB2C024B1100BB6949;
+					};
+					B20D28152C024B1200BB6949 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B20D27FB2C024B1100BB6949;
+					};
+				};
+			};
+			buildConfigurationList = B20D27F72C024B1100BB6949 /* Build configuration list for PBXProject "AI Tag Scanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20D27F32C024B1100BB6949;
+			productRefGroup = B20D27FD2C024B1100BB6949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20D27FB2C024B1100BB6949 /* AI Tag Scanner */,
+				B20D280B2C024B1200BB6949 /* AI Tag ScannerTests */,
+				B20D28152C024B1200BB6949 /* AI Tag ScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20D27FA2C024B1100BB6949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20D28072C024B1200BB6949 /* Preview Assets.xcassets in Resources */,
+				B20D28042C024B1200BB6949 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20D280A2C024B1200BB6949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20D28142C024B1200BB6949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20D27F82C024B1100BB6949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20D28022C024B1100BB6949 /* ContentView.swift in Sources */,
+				B20D28002C024B1100BB6949 /* AI_Tag_ScannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20D28082C024B1200BB6949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20D28112C024B1200BB6949 /* AI_Tag_ScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20D28122C024B1200BB6949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20D281D2C024B1200BB6949 /* AI_Tag_ScannerUITestsLaunchTests.swift in Sources */,
+				B20D281B2C024B1200BB6949 /* AI_Tag_ScannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20D280E2C024B1200BB6949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20D27FB2C024B1100BB6949 /* AI Tag Scanner */;
+			targetProxy = B20D280D2C024B1200BB6949 /* PBXContainerItemProxy */;
+		};
+		B20D28182C024B1200BB6949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20D27FB2C024B1100BB6949 /* AI Tag Scanner */;
+			targetProxy = B20D28172C024B1200BB6949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B20D281E2C024B1200BB6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B20D281F2C024B1200BB6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20D28212C024B1200BB6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI Tag Scanner/Preview Content\"";
+				DEVELOPMENT_TEAM = NS2WHS7X88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Scarfy.AI-Tag-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20D28222C024B1200BB6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI Tag Scanner/Preview Content\"";
+				DEVELOPMENT_TEAM = NS2WHS7X88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Scarfy.AI-Tag-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B20D28242C024B1200BB6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS2WHS7X88;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Scarfy.AI-Tag-ScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI Tag Scanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI Tag Scanner";
+			};
+			name = Debug;
+		};
+		B20D28252C024B1200BB6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS2WHS7X88;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Scarfy.AI-Tag-ScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI Tag Scanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI Tag Scanner";
+			};
+			name = Release;
+		};
+		B20D28272C024B1200BB6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS2WHS7X88;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Scarfy.AI-Tag-ScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AI Tag Scanner";
+			};
+			name = Debug;
+		};
+		B20D28282C024B1200BB6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS2WHS7X88;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Scarfy.AI-Tag-ScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AI Tag Scanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20D27F72C024B1100BB6949 /* Build configuration list for PBXProject "AI Tag Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20D281E2C024B1200BB6949 /* Debug */,
+				B20D281F2C024B1200BB6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20D28202C024B1200BB6949 /* Build configuration list for PBXNativeTarget "AI Tag Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20D28212C024B1200BB6949 /* Debug */,
+				B20D28222C024B1200BB6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20D28232C024B1200BB6949 /* Build configuration list for PBXNativeTarget "AI Tag ScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20D28242C024B1200BB6949 /* Debug */,
+				B20D28252C024B1200BB6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20D28262C024B1200BB6949 /* Build configuration list for PBXNativeTarget "AI Tag ScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20D28272C024B1200BB6949 /* Debug */,
+				B20D28282C024B1200BB6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20D27F42C024B1100BB6949 /* Project object */;
+}
